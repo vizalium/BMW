@@ -1,0 +1,156 @@
+.logo {
+    height: 50px;
+}
+.p {
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.header{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom:15px ;
+    margin-bottom: 15px;
+}
+.a {
+    color: antiquewhite;
+    text-decoration: none;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.a:hover {
+    color: yellow;
+}
+body {
+    margin: 0;
+    background-color: grey;
+    font-family: "Nunito", serif;
+}
+.nav-link {
+    color: antiquewhite;
+    text-decoration: none;
+    transition: .5s;
+}
+.nav-link:hover {
+    color: yellow;
+}
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    gap: 30px;
+}
+.vid {
+    width:50%; 
+    height: 360px; 
+}
+.main-row {
+    display:flex ;
+    margin-bottom: 30px;
+}
+.img-main {
+    width: 50%;
+    border-radius: 10px;
+}
+.aa {
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+    display: inline-block;
+    padding: 20px;
+    background-color: black;
+    align-items: center;
+    border-radius:10px;
+    text-align: center;
+}
+.aa:hover {
+    color: yellow;
+
+}
+.left {
+    padding-right: 20px;
+}
+.news-row {
+    display: flex;
+    gap: 20px;
+}
+.card-link {
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+    display: inline-block;
+    padding: 20px;
+    background-color: black;
+    align-items: center;
+    border-radius:10px;
+    text-align: center;
+}
+.card-link:hover {
+    color: yellow;
+}
+.card {
+    width: 25%;
+    color: antiquewhite;
+}
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+} 
+.footer {
+    background-color: black;
+    padding: 30px;
+    margin-top: 80px;
+}
+.footer-link {
+    width: 50px;
+    height: 50px;
+    background-color: antiquewhite;
+    display: inline-block;
+    border-radius: 50%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.footer-link:hover {
+    background-color: white;
+    transition: .5s;
+}
+.h1 {
+    color: antiquewhite;
+}
+.p {
+    color: antiquewhite;
+}
+.footer-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.post {
+    color: antiquewhite;
+}
+@media (max-width:700px) {
+    .main-row {
+        flex-direction: column-reverse;
+    }
+    .vid {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+
+    }
+    .news-row {
+        flex-wrap: wrap;
+    }
+}
